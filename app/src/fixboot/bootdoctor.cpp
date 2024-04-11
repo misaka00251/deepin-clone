@@ -88,6 +88,8 @@ bool BootDoctor::fix(const QString &partDevice)
                                  "ppc64"
                      #elif defined(HOST_ARCH_ppc64le)
                                  "ppc64le"
+                     #elif defined(HOST_ARCH_riscv64)
+                                 "riscv64"
                      #else
                                 "unknow"
                      #endif
